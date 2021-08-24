@@ -8,7 +8,7 @@ image:
   repository: ghcr.io/zamonia500/easel-onboarding-jyc
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "pr-1"
+  tag: "pr-3"
 
 imagePullSecrets: []
 nameOverride: ""
