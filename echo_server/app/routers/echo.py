@@ -8,7 +8,7 @@ router = APIRouter()
 @router.get("/echo/", tags=["users"])
 async def echo_query_parameter(request: Request):
 
-    result = dict()
+    result = dict(argo="sync!")
 
     for key in request.query_params.keys():
         param_list: List = request.query_params.getlist(key)
